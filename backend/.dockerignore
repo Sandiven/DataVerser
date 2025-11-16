@@ -1,0 +1,26 @@
+# Ignore virtual environments
+venv/
+app/dynamic_etl/venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore temp files
+*.log
+*.tmp
+
+# Ignore local env configs
+.env
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore OS files
+Thumbs.db
+.DS_Store
