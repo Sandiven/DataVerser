@@ -1,0 +1,52 @@
+This is a mixed test file for Tier B extraction.
+It includes plain text, key-value pairs, JSON fragments, HTML tables, and CSV-like rows.
+
+# --- Key-Value Region ---
+name: John Doe
+email: john@example.com
+age: 29
+
+# --- JSON Fragment ---
+{
+    "id": 101,
+    "status": "active",
+    "country_code": "US",
+    "tags": ["alpha", "beta"]
+}
+
+Some random text here that should be ignored by strict parsers.
+
+# --- Embedded HTML Table ---
+Here is an HTML table inside a TXT file:
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>product</th>
+            <th>price_usd</th>
+            <th>quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Laptop</td>
+            <td>999.99</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Mouse</td>
+            <td>19.99</td>
+            <td>12</td>
+        </tr>
+    </tbody>
+</table>
+
+More noise text…
+
+# --- CSV-like Block ---
+product,price_usd,quantity
+Keyboard,49.99,5
+Monitor,199.49,2
+USB Cable,4.99,20
+
+End of file.

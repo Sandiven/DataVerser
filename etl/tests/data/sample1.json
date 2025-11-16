@@ -1,0 +1,6 @@
+[
+  {"id": "1", "name": " Alice  ", "age": "29", "country_code": "IN", "created_at": "2024-05-01", "updated_at": "2025-10-10"},
+  {"id": "2", "name": "Bob", "age": "  42", "country_code": "US", "created_at": "2023-07-12", "updated_at": "2024-11-01"},
+  {"id": "3", "name": "", "age": "", "country_code": "UK", "created_at": "", "updated_at": ""}
+]
+

@@ -1,0 +1,4 @@
+id,name,age,country_code,created_at,updated_at
+4,Charlie,35,DE,2025-01-01,2025-06-01
+5,"Dana  ",,FR,2024-02-02,
+6,,27,IN,2023-03-03,2023-03-03
